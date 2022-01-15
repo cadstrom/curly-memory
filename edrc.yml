@@ -1,0 +1,24 @@
+version: 1
+kicad:
+  drc:
+    - file: hardware/curly-memory-face-plate/curly-memory-face-plate.kicad_pcb
+      dru:
+        file: default
+    - file: >-
+        hardware/curly-memory-interface-board/curly-memory-interface-board.kicad_pcb
+      dru:
+        file: default
+    - file: hardware/curly-memory-kicad/curly-memory-kicad.kicad_pcb
+      dru:
+        file: default
+  erc:
+    - file: hardware/curly-memory-interface-board/curly-memory-interface-board.sch
+      lib: >-
+        hardware/curly-memory-interface-board/curly-memory-interface-board-cache.lib
+    - file: hardware/curly-memory-kicad/curly-memory-kicad.sch
+      lib: hardware/curly-memory-kicad/curly-memory-kicad-cache.lib
+    - file: hardware/curly-memory-kicad/input.sch
+      lib: hardware/curly-memory-kicad/curly-memory-kicad-cache.lib
+    - file: hardware/curly-memory-interface-board/input.sch
+      lib: >-
+        hardware/curly-memory-interface-board/curly-memory-interface-board-cache.lib
