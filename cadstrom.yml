@@ -22,3 +22,6 @@ kicad:
         hardware/curly-memory-interface-board/curly-memory-interface-board-cache.lib
     - file: hardware/curly-memory-kicad/input.sch
       lib: hardware/curly-memory-kicad/curly-memory-kicad-cache.lib
+    - file: hardware/curly-memory-kicad/curly-memory-kicad.kicad_sch
+    - file: hardware/curly-memory-face-plate/curly-memory-face-plate.kicad_sch
+    - file: hardware/curly-memory-interface-board/curly-memory-interface-board.kicad_sch
